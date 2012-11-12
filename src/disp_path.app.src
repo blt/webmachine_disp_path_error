@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, disp_path,
+ [
+  {description, "disp_path"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { disp_path_app, []}},
+  {env, []}
+ ]}.
